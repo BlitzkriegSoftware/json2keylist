@@ -1,7 +1,9 @@
 [project]
 name = "json2keylist"
 version = "0.1.0"
-description = "Add your description here"
+description = "Converts a JSON to a list of keys alphabetical"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "pandas>=3.0.3",
+]

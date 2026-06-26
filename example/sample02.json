@@ -1,0 +1,62 @@
+{
+  "employees": [
+    {
+      "id": "E00001",
+      "name": "David Walker",
+      "profile": {
+        "contact": {
+          "email": "pricevincent@example.org",
+          "phone": "6203859526",
+          "address": {
+            "street": "885 Dylan Locks",
+            "city": "Harrisshire",
+            "location": {
+              "state": "FL",
+              "country": "USA",
+              "geo": {
+                "lat": "-50.8298",
+                "long": "-39.9860",
+                "timezone": {
+                  "name": "America/Los_Angeles",
+                  "utc_offset": "-08:00"
+                }
+              }
+            }
+          }
+        },
+        "projects": [
+          {
+            "projectId": "P532",
+            "name": "Architect Scalable Action-Items",
+            "tasks": [
+              {
+                "taskId": "T780",
+                "description": "Triple-buffered bi-directional circuit",
+                "assignedTo": {
+                  "id": "E00001",
+                  "name": "David Walker",
+                  "skills": {
+                    "primary": "Python",
+                    "secondary": ["Node.js", "GCP"],
+                    "experience": {
+                      "years": 5,
+                      "domains": ["Cloud", "E-commerce"],
+                      "certifications": {
+                        "current": ["AWS Certified Developer", "Scrum Master"],
+                        "expired": ["Oracle Java SE 8"],
+                        "meta": {
+                          "verified": true,
+                          "lastUpdated": "2025-05-15"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
