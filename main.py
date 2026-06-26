@@ -1,6 +1,7 @@
 import json
 import sys
 import os
+import pprint
 import pandas as pd
 
 
@@ -26,9 +27,9 @@ def main():
 
     data_dict = json.loads(file_content)
     df = pd.json_normalize(data_dict)
-    flat_dict = df.to_dict(orient="records")[0]
+    flat_dict = df.to_dict(orient="index")
 
-    print(flat_dict)
+    pprint.pprint(flat_dict, compact=False, sort_dicts=True)
 
 
 if __name__ == "__main__":
