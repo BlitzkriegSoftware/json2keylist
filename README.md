@@ -33,11 +33,7 @@ Pick the UV created one.
 ## How to run from command line
 
 ```powershell
-uv run main.py {filename}
-```
-
-e.g.,
-
-```powershell
-uv run main.py .\example\sample01.json
+uv run json_flatten.py data.json
+uv run json_flatten.py data.json --path-delim "/" --kv-delim "=" --row-delim ";"
+uv run json_flatten.py data.json -o flat.txt
 ```
