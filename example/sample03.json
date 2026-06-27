@@ -1,0 +1,52 @@
+[
+  {
+    "FREQ": "M",
+    "REF_AREA": "ABW",
+    "REF_AREA_LABEL": "Aruba",
+    "INDICATOR": "FAO_CP_23012",
+    "INDICATOR_LABEL": "Consumer Prices, General Indices (2015 = 100)",
+    "Value": "68.479594",
+    "Year": "2000",
+    "Month": "1"
+  },
+  {
+    "FREQ": "M",
+    "REF_AREA": "ABW",
+    "REF_AREA_LABEL": "Aruba",
+    "INDICATOR": "FAO_CP_23013",
+    "INDICATOR_LABEL": "Consumer Prices, Food Indices (2015 = 100)",
+    "Value": "51.885615",
+    "Year": "2000",
+    "Month": "1"
+  },
+  {
+    "FREQ": "M",
+    "REF_AREA": "ABW",
+    "REF_AREA_LABEL": "Aruba",
+    "INDICATOR": "FAO_CP_23014",
+    "INDICATOR_LABEL": "Food price inflation",
+    "Value": "",
+    "Year": "2000",
+    "Month": "1"
+  },
+  {
+    "FREQ": "M",
+    "REF_AREA": "AFG",
+    "REF_AREA_LABEL": "Afghanistan",
+    "INDICATOR": "FAO_CP_23012",
+    "INDICATOR_LABEL": "Consumer Prices, General Indices (2015 = 100)",
+    "Value": "16.17726",
+    "Year": "2000",
+    "Month": "1"
+  },
+  {
+    "FREQ": "M",
+    "REF_AREA": "AFG",
+    "REF_AREA_LABEL": "Afghanistan",
+    "INDICATOR": "FAO_CP_23013",
+    "INDICATOR_LABEL": "Consumer Prices, Food Indices (2015 = 100)",
+    "Value": "24.356332",
+    "Year": "2000",
+    "Month": "1"
+  }
+]
