@@ -41,6 +41,7 @@ def unescape(s: str) -> str:
 
 
 def format_value(value) -> str:
+    """Represent value is a printable format"""
     if value is None:
         return "null"
     if isinstance(value, bool):
@@ -61,6 +62,9 @@ def join_path(path, path_delim):
 
 
 def emit(path, value, path_delim, kv_delim, row_delim, out):
+    """
+    Build out the terminal path as the key, and outputs it and the value to `out`
+    """
     path_str = join_path(path, path_delim)
     out.write(f"{path_str}{kv_delim}{format_value(value)}{row_delim}")
 
